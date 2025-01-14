@@ -1,0 +1,9 @@
+{
+  "name": "attadio-patrick-ui",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/attadio-patrick-ui/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project attadio-patrick-ui --web",
+  "targets": {}
+}
