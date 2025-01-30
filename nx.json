@@ -38,6 +38,12 @@
       "options": {
         "targetName": "test"
       }
+    },
+    {
+      "plugin": "@nx/playwright/plugin",
+      "options": {
+        "targetName": "e2e"
+      }
     }
   ],
   "generators": {
@@ -55,6 +61,11 @@
         "style": "css",
         "linter": "eslint"
       }
+    }
+  },
+  "targetDefaults": {
+    "e2e-ci--**/*": {
+      "dependsOn": ["^build"]
     }
   }
 }
