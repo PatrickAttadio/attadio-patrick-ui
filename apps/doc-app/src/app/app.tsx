@@ -1,12 +1,11 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
+import { Button } from '@attadio-patrick-ui/button';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="doc-app" />
+      <Button label='Cliccami' className='color' onClick={() => console.log('Cliccato!')} />
     </div>
   );
 }
