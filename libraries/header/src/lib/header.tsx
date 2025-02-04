@@ -11,7 +11,7 @@ export function Header() {
   return (
     <div className={styles['container']}>
       <div className={styles['header']}>
-        <h1>ATTADIO-UI</h1>
+        <h1>ATTADIO UI</h1>
         <nav>
           <ul>
         <li>Getting Start</li>

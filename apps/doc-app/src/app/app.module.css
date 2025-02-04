@@ -5,3 +5,8 @@
   padding: 0;
   background-color: aliceblue;
 }
+
+body {
+  display: block;
+  margin: 0px!important
+}

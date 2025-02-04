@@ -1,7 +1,26 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+.button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+  
+  .primaryButton {
+    background-color: #4a90e2;
+    color: white;
+}
+  
+  .primaryButton:hover {
+    background-color: #3b7dc9;
+}
+  
+  .secondaryButton {
+    background-color: #333;
+    color: white;
+}
+  
+  .secondaryButton:hover {
+    background-color: #555;
+}
+  

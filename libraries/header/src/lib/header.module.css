@@ -10,8 +10,6 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.7);
     padding: 10px 40px;
     border-radius: 10px;
 }

@@ -17,7 +17,8 @@
     "paths": {
       "@attadio-patrick-ui/button": ["libraries/button/src/index.ts"],
       "@attadio-patrick-ui/header": ["libraries/header/src/index.ts"],
-      "@libraries/hero": ["libraries/hero/src/index.ts"]
+      "@attadio-patrick-ui/hero": ["libraries/hero/src/index.ts"],
+      "@attadio-patrick-ui/content": ["libraries/content/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
