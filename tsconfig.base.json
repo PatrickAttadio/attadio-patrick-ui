@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@attadio-patrick-ui/button": ["libraries/button/src/index.ts"]
+      "@attadio-patrick-ui/button": ["libraries/button/src/index.ts"],
+      "@attadio-patrick-ui/header": ["libraries/header/src/index.ts"],
+      "@libraries/hero": ["libraries/hero/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
