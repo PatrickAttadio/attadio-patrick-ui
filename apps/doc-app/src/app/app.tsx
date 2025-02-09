@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.css';
 import { Header } from '@attadio-patrick-ui/header';
 import { Hero } from '@attadio-patrick-ui/hero';
