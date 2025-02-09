@@ -1,12 +1,5 @@
-/* Your styles goes here. */
-* {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: aliceblue;
-}
 
 body {
   display: block;
-  margin: 0px!important
+  padding-bottom: 100px;
 }
