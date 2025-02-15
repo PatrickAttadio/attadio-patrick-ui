@@ -1,5 +1,6 @@
 import { TabButton } from '@attadio-patrick-ui/button';
 import { Card } from '@attadio-patrick-ui/card';
+import { Grid } from '@attadio-patrick-ui/grid';
 import styles from './content.module.css';
 
 export function Content() {
@@ -48,8 +49,8 @@ export function Content() {
     <div className={styles.container}>
       <h1 className={styles.title}>Button</h1>
       <TabButton className={styles.tabComponent} tabs={tabs} />
-      <h1 className={styles.title}>Card</h1>
       <Card />
+      <Grid />
     </div>
   );
 }
