@@ -4,11 +4,16 @@ import styles from './sidebar.module.css';
 const codeExample = `
   import styles from './sidebar.module.css';
 
-  export function Sidebar({ title, content }) {
+  export function Sidebar() {
     return (
       <div className={styles.sidebar}>
-        <h2>{title}</h2>
-        <p>{content}</p>
+        <h2>Menu</h2>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
       </div>
     );
   };
@@ -22,8 +27,13 @@ const tabs = [
     content: (
       <div className={styles.demo}>
         <div className={styles.sidebar}>
-          <h2>Example Sidebar</h2>
-          <p>This is an example of a simple sidebar .</p>
+          <h2>Menu</h2>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
         </div>
       </div>
     ),

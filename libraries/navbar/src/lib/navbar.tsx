@@ -4,12 +4,17 @@ import styles from './navbar.module.css';
 const codeExample = `
   import styles from './navbar.module.css';
 
-  export function Navbar({ title, content }) {
+  export function Navbar() {
     return (
-      <div className={styles.navbar}>
-        <h2>{title}</h2>
-        <p>{content}</p>
-      </div>
+      <nav className={styles.navbar}>
+        <div className={styles.logo}>MyLogo</div>
+        <ul className={styles.navLinks}>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
     );
   };
 
@@ -21,10 +26,15 @@ const tabs = [
     label: 'Demo',
     content: (
       <div className={styles.demo}>
-        <div className={styles.navbar}>
-          <h2>Example Navbar</h2>
-          <p>This is an example of a simple navbar .</p>
-        </div>
+        <nav className={styles.navbar}>
+          <div className={styles.logo}>MyLogo</div>
+          <ul className={styles.navLinks}>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
       </div>
     ),
   },

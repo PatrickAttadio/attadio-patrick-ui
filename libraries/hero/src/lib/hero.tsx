@@ -12,7 +12,7 @@ export function Hero() {
       </h1>
       <p className={styles.description}>
         The Best Selling React library based Template
-        with <span className={styles.blue}>2000+</span> UI Features.
+        with <span className={styles.blue}>a lot of</span> UI Features.
       </p>
       <div className={styles.footer}>
         <span>✔ Ready to Use</span>
