@@ -1,6 +1,9 @@
 import { TabButton } from '@attadio-patrick-ui/button';
 import { Card } from '@attadio-patrick-ui/card';
 import { Grid } from '@attadio-patrick-ui/grid';
+import { Sidebar } from '@attadio-patrick-ui/sidebar';
+import { Navbar } from '@attadio-patrick-ui/navbar';
+import { Footer } from '@attadio-patrick-ui/footer';
 import styles from './content.module.css';
 
 export function Content() {
@@ -51,6 +54,9 @@ export function Content() {
       <TabButton className={styles.tabComponent} tabs={tabs} />
       <Card />
       <Grid />
+      <Sidebar />
+      <Navbar />
+      <Footer />
     </div>
   );
 }

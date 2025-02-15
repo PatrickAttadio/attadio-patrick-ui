@@ -18,9 +18,12 @@
       "@attadio-patrick-ui/button": ["libraries/button/src/index.ts"],
       "@attadio-patrick-ui/card": ["libraries/card/src/index.ts"],
       "@attadio-patrick-ui/content": ["libraries/content/src/index.ts"],
+      "@attadio-patrick-ui/footer": ["libraries/footer/src/index.ts"],
       "@attadio-patrick-ui/grid": ["libraries/grid/src/index.ts"],
       "@attadio-patrick-ui/header": ["libraries/header/src/index.ts"],
-      "@attadio-patrick-ui/hero": ["libraries/hero/src/index.ts"]
+      "@attadio-patrick-ui/hero": ["libraries/hero/src/index.ts"],
+      "@attadio-patrick-ui/navbar": ["libraries/navbar/src/index.ts"],
+      "@attadio-patrick-ui/sidebar": ["libraries/sidebar/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
