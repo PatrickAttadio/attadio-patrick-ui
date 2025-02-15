@@ -7,5 +7,5 @@
 .primaryButton:hover { background-color: #3b7dc9 }
 .tab { padding: 0.8rem 1.5rem; border: 1px solid #ddd; background-color: #f9f9f9; cursor: pointer; font-size: 1rem }
 .tab:not(.activeTab):hover { background-color: #e0e0e0 }
-.tabContent { padding: 1.5rem; border: 1px solid #ddd; background-color: #fff; border-radius: 5px; width: 100% }
+.tabContent { padding-top: 1.5rem; padding-bottom: 1.5rem; border: 1px solid #ddd; background-color: #fff; border-radius: 5px; width: 100% }
 .tabs { display: flex; justify-content: center; margin-bottom: 1rem }

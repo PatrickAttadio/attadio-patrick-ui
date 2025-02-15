@@ -1,7 +1,15 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+.activeTab { background-color: #4a90e2!important; color: white; border-color: #4a90e2!important }
+.button { padding: 0.8rem 1.5rem; border: none; border-radius: 5px; font-size: 1rem; cursor: pointer }
+.card { background-color: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden; width: 100%; max-width: 300px; text-align: center; transition: transform 0.2s ease-in-out }  
+.card:hover { transform: scale(1.05) }  
+.cardImage { width: 100%; height: 180px; object-fit: contain }  
+.cardContent { padding: 1rem }  
+.cardContent h2 { margin: 0; font-size: 1.5rem; color: #333 }  
+.cardContent p { color: #666; font-size: 1rem; margin-top: 0.5rem }
+.codeBlock { background-color: #2d2d2d; color: #f8f8f2; font-family: 'Courier New', Courier, monospace; padding: 1rem; text-align: left; border-radius: 5px; overflow-x: auto }
+.container { font-family: Arial, sans-serif; width: 100%; max-width: 800px; margin: 0 auto; text-align: center }  
+.demo { display: flex; justify-content: center; gap: 1rem }
+.tab { padding: 0.8rem 1.5rem; border: 1px solid #ddd; background-color: #f9f9f9; cursor: pointer; font-size: 1rem }
+.tab:not(.activeTab):hover { background-color: #e0e0e0 }
+.tabContent { padding-top: 1.5rem; padding-bottom: 1.5rem; border: 1px solid #ddd; background-color: #fff; border-radius: 5px; width: 100% }
+.tabs { display: flex; justify-content: center; margin-bottom: 1rem }

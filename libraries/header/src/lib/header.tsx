@@ -20,8 +20,12 @@ export function Header() {
           <span className={styles['dropdown-icon']}>▼</span>
           {isComponentsMenuOpen && (
             <ul>
-          <li>Button</li>
-          {/* <li>Card</li> */}
+              <li>Button</li>
+              <li>Card</li>
+              <li>Grid</li>
+              <li>Sidebar</li>
+              <li>Navbar</li>
+              <li>Footer</li>
             </ul>
           )}
         </li>
