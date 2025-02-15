@@ -42,6 +42,7 @@ export function TabButton({ className, tabs }: TabButtonProps) {
     </div>
   );
 }
+
 const codeExample = `
   import styles from './button.module.css';
 
@@ -84,3 +85,59 @@ const tabs = [
 ];
 
 export { tabs };
+
+// Aggiungiamo gli ID alle sezioni di destinazione
+export function ButtonSection() {
+  return (
+    <div id="button-section">
+      <h2>Button Section</h2>
+      <Button label="Click Me" />
+    </div>
+  );
+}
+
+export function CardSection() {
+  return (
+    <div id="card-section">
+      <h2>Card Section</h2>
+      {/* Contenuto della sezione Card */}
+    </div>
+  );
+}
+
+// Aggiungere altre sezioni simili per Grid, Sidebar, Navbar, Footer
+export function GridSection() {
+  return (
+    <div id="grid-section">
+      <h2>Grid Section</h2>
+      {/* Contenuto della sezione Grid */}
+    </div>
+  );
+}
+
+export function SidebarSection() {
+  return (
+    <div id="sidebar-section">
+      <h2>Sidebar Section</h2>
+      {/* Contenuto della sezione Sidebar */}
+    </div>
+  );
+}
+
+export function NavbarSection() {
+  return (
+    <div id="navbar-section">
+      <h2>Navbar Section</h2>
+      {/* Contenuto della sezione Navbar */}
+    </div>
+  );
+}
+
+export function FooterSection() {
+  return (
+    <div id="footer-section">
+      <h2>Footer Section</h2>
+      {/* Contenuto della sezione Footer */}
+    </div>
+  );
+}
