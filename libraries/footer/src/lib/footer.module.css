@@ -3,7 +3,16 @@
 .codeBlock { background-color: #2d2d2d; color: #f8f8f2; font-family: 'Courier New', Courier, monospace; padding: 1rem; text-align: left; border-radius: 5px; overflow-x: auto }
 .container { font-family: Arial, sans-serif; width: 100%; max-width: 800px; margin: 0 auto; text-align: center }  
 .demo { display: flex; justify-content: center; gap: 1rem }
+.footer { background-color: #999999; color: white; padding: 20px; text-align: center; width: 100% }
+.footer h2 { font-size: 1.5rem; margin-bottom: 10px }
+.footer p { font-size: 1rem; opacity: 0.8 }
 .tab { padding: 0.8rem 1.5rem; border: 1px solid #ddd; background-color: #f9f9f9; cursor: pointer; font-size: 1rem }
 .tab:not(.activeTab):hover { background-color: #e0e0e0 }
 .tabContent { padding-top: 1.5rem; padding-bottom: 1.5rem; border: 1px solid #ddd; background-color: #fff; border-radius: 5px; width: 100% }
 .tabs { display: flex; justify-content: center; margin-bottom: 1rem }
+
+@media (max-width: 768px) {
+    .footer { padding: 15px }
+    .footer h2 { font-size: 1.2rem }
+    .footer p { font-size: 0.9rem }
+}  

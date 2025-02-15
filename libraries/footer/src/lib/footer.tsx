@@ -4,12 +4,12 @@ import styles from './footer.module.css';
 const codeExample = `
   import styles from './footer.module.css';
 
-  export function Footer({ title, content }) {
+  export function Footer() {
     return (
-      <div className={styles.footer}>
-        <h2>{title}</h2>
-        <p>{content}</p>
-      </div>
+      <footer className={styles.footer}>
+        <h2>Stay Connected</h2>
+        <p>© 2025 Movie App. All rights reserved.</p>
+      </footer>
     );
   };
 
@@ -21,10 +21,10 @@ const tabs = [
     label: 'Demo',
     content: (
       <div className={styles.demo}>
-        <div className={styles.footer}>
-          <h2>Example Footer</h2>
-          <p>This is an example of a simple footer .</p>
-        </div>
+        <footer className={styles.footer}>
+          <h2>Stay Connected</h2>
+          <p>© 2025 Movie App. All rights reserved.</p>
+        </footer>
       </div>
     ),
   },
