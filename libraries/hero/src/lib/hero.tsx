@@ -14,10 +14,6 @@ export function Hero() {
         The Best Selling React library based Template
         with <span className={styles.blue}>2000+</span> UI Features.
       </p>
-      <div className={styles.buttons}>
-        <button className={styles.viewComponents}>View Demos</button>
-        <button className={styles.startCreating}>Start Creating</button>
-      </div>
       <div className={styles.footer}>
         <span>✔ Ready to Use</span>
         <span>✔ #1 Template of all Time</span>
